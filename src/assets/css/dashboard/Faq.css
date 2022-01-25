@@ -1,0 +1,108 @@
+.faq-content {
+  background-color: #072036;
+  padding: 0px 190px;
+  padding-top: 150px;
+}
+.lg-title-faq {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.drop-part {
+  width: 100%;
+  padding: 50px 30px;
+  margin-top: 60px;
+}
+.each-part-faq {
+  margin-top: 50px;
+}
+.md-description-faq {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  float: left;
+}
+.horizontal-img {
+  float: right;
+  width: 18px;
+  height: 14px;
+  cursor: pointer;
+}
+.vertical-img {
+  float: right;
+  width: 18px;
+  height: 14px;
+  cursor: pointer;
+}
+.sm-description-faq {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1599px) {
+  .faq-content {
+    padding: 0px 60px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  .faq-content {
+    padding: 0px 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .faq-content {
+    padding: 0px 5px;
+    padding-top: 100px;
+  }
+  .drop-part {
+    width: 100%;
+    padding: 50px 15px;
+    margin-top: 60px;
+  }
+  .md-description-faq {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 742px) {
+  .horizontal-img {
+    margin-top: 10px;
+  }
+  .vertical-img {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .md-description-faq {
+    font-size: 13px;
+    width: 90%;
+  }
+  .sm-description-faq {
+    font-size: 14px;
+  }
+  .each-part-faq {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .md-description-faq {
+    font-size: 11px;
+    width: 87%;
+  }
+  .sm-description-faq {
+    font-size: 12px;
+  }
+}

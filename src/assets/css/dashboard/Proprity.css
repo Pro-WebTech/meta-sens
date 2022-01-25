@@ -1,0 +1,178 @@
+.content-meta {
+  background-color: white;
+  padding: 0px 390px;
+  margin-top: 150px;
+}
+.header-video{
+  width: 100%;
+}
+.nft-img-part {
+  margin: 0;
+}
+.earth-img {
+  width: 300px;
+  webkit-filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.6));
+  filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.6));
+  -webkit-animation: float 4s ease-in-out infinite;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+@keyframes float {
+  0% {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.6));
+    filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.6));
+    transform: translatey(0px) scale(2.7);
+  }
+  50% {
+      -webkit-filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.3));
+      filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.3));
+      transform: translatey(-30px) scale(2.7);
+  }
+  100% {
+      -webkit-filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.6));
+      filter: drop-shadow(5px 5px 5px rgba(146, 187, 240, 0.6));
+      transform: translatey(0px) scale(2.7);
+  }
+}
+.description-part {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-top: 70px;
+  
+}
+.proprity-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #28384c;
+}
+.proprity-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #28384c;
+}
+.join-btn{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 8px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    min-width: 120px;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 1s;
+    background-image: linear-gradient(to right,#46bdf4 0%, #2b56f5 100%);
+    margin-top: 30px;
+}
+.join-btn:hover{
+  transition: all 1s;
+  background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+}
+.pro-logos-part{
+  margin-top: 350px;
+  padding: 0px 390px;
+}
+.lg-title-partner{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #28384c;
+  text-align: center;
+}
+.logo-imgs-first{
+  width: 200px;
+}
+.logo-imgs{
+  width: 200px;
+  margin-left: 100px;
+}
+@media only screen and (max-width: 1599px) {
+  .content-meta {
+    padding: 0px 90px;
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  /* .content-meta {
+    padding: 0px 50px;
+    padding-top: 150px;
+  } */
+  .nft-img {
+    width: 450px;
+    height: 359px;
+    border-radius: 32px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .description-part {
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  .content-meta {
+    padding: 0px 50px;
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .content-meta {
+    padding: 0px 5px;
+    padding-top: 100px;
+  }
+  .nft-img-part {
+    text-align: center;
+    padding: 0;
+  }
+  .description-part {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .nft-img {
+    width: 400px;
+    height: 319px;
+    border-radius: 25px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .nft-img {
+    width: 320px;
+    height: 255px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .nft-img {
+    width: 270px;
+    height: 215px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .nft-img {
+    width: 240px;
+    height: 191px;
+    border-radius: 20px;
+  }
+}

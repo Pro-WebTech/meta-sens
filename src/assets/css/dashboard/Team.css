@@ -1,0 +1,153 @@
+.team-content {
+  background-color: #072036;
+  padding: 0px 200px;
+  padding-top: 150px;
+}
+.lg-description {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.character-part {
+  width: 33%;
+  padding: 0 20px;
+  margin: auto;
+}
+.photo-part {
+  width: 100%;
+  height: 430px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+.md-description1 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.sm-description-team {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1599px) {
+  .team-content {
+    padding: 0px 90px;
+    padding-top: 150px;
+  }
+  .photo-part {
+    height: 370px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .photo-part {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  .team-content {
+    padding: 0px 50px;
+    padding-top: 150px;
+  }
+  .photo-part {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .team-content {
+    padding: 0px 20px;
+    padding-top: 50px;
+  }
+  .character-part {
+    width: 50%;
+    padding: 0 20px;
+  }
+  .photo-part {
+    height: 400px;
+  }
+  .md-description1 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .photo-part {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .photo-part {
+    height: 270px;
+  }
+}
+@media only screen and (max-width: 523px) {
+  .photo-part {
+    height: 230px;
+  }
+  .md-description1 {
+    font-size: 15px;
+  }
+  .sm-description-team {
+    font-size: 15px;
+  }
+  .character-part {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .photo-part {
+    height: 200px;
+  }
+  .md-description1 {
+    font-size: 13px;
+  }
+  .sm-description-team {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 397px) {
+  .photo-part {
+    height: 190px;
+  }
+  .sm-description-team {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 397px) {
+  .photo-part {
+    height: 170px;
+  }
+  .sm-description-team {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .photo-part {
+    height: 150px;
+  }
+  .sm-description-team {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .photo-part {
+    height: 130px;
+  }
+  .md-description1 {
+    font-size: 12px;
+  }
+  .sm-description-team {
+    font-size: 7px;
+  }
+}

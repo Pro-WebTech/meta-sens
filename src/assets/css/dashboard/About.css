@@ -1,0 +1,282 @@
+.content-about {
+  background-color: #072036;
+  padding: 0px 200px;
+  padding-top: 150px;
+}
+.lg-description-about {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.artist-part {
+  width: 1130px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  margin: auto !important;
+  margin-top: 60px !important;
+  padding: 0px 50px;
+}
+.photo-img {
+  width: 356px !important;
+  height: 413px;
+  background: #0f365a;
+  border-radius: 32px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.check-img {
+  width: 17px;
+  height: 17px;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+.about-lg {
+  font-size: 32px;
+}
+.about-md {
+  font-size: 20px;
+}
+.about-sm {
+  font-size: 18px;
+}
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.previous-work-part {
+  text-align: center;
+  margin-top: 70px;
+}
+.logos-part {
+  width: 609px;
+  margin: auto !important;
+  padding-top: 30px;
+}
+.logo-imgs1 {
+  width: auto;
+  height: auto;
+}
+.logo-imgs2,
+.logo-imgs3,
+.logo-imgs4 {
+  margin-left: 70px;
+  width: auto;
+  height: auto;
+}
+.previous-name-part {
+  width: 987px;
+  margin: auto !important;
+  padding-top: 30px;
+}
+.previous-work-name {
+  margin: auto;
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 50px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1599px) {
+  .content-about {
+    padding: 0px 90px;
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  .content-about {
+    padding: 0px 50px;
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 1299px) {
+  .artist-part {
+    width: 830px;
+    height: 470px;
+    border-radius: 20px;
+  }
+  .photo-img {
+    width: 270px !important;
+    height: 353px;
+    border-radius: 27px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .previous-name-part {
+    width: 672px;
+  }
+  .previous-work-name {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .lg-description-about {
+    width: 700px;
+  }
+  .content-about {
+    padding: 0px 20px;
+    padding-top: 100px;
+  }
+  .artist-part {
+    width: 100%;
+    height: 470px;
+    border-radius: 20px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+    height: auto;
+  }
+  .photo-img {
+    margin: auto;
+    width: 100% !important;
+    height: 270px !important;
+    position: relative;
+    margin-top: 40px;
+  }
+  .vertical-center {
+    position: relative;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 791px) {
+  .lg-description-about {
+    width: 100%;
+    font-size: 22px;
+  }
+  .logos-part {
+    width: 405px;
+  }
+  .logo-imgs1 {
+    width: 90px;
+    height: 52px;
+  }
+  .logo-imgs2 {
+    margin-left: 40px;
+    width: 55px;
+    height: 50px;
+  }
+  .logo-imgs3 {
+    margin-left: 40px;
+    width: 50px;
+    height: 49px;
+  }
+  .logo-imgs4 {
+    margin-left: 40px;
+    width: 90px;
+    height: 48px;
+  }
+  .previous-name-part {
+    width: 470px;
+  }
+  /* .previous-work-name {
+    margin: auto;
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+  } */
+}
+@media only screen and (max-width: 499px) {
+  .artist-part {
+    padding: 0px 5px;
+    padding-bottom: 30px;
+  }
+  .photo-img {
+    margin: auto;
+    width: 100% !important;
+    height: 270px !important;
+    position: relative;
+    margin-top: 20px;
+  }
+  .about-lg {
+    font-size: 28px;
+  }
+  .about-md {
+    font-size: 18px;
+  }
+  .about-sm {
+    font-size: 15px;
+  }
+  .logos-part {
+    width: 330px;
+  }
+  .logo-imgs1 {
+    width: 60px;
+    height: 34px;
+  }
+  .logo-imgs2 {
+    margin-left: 40px;
+    width: 35px;
+    height: 32px;
+  }
+  .logo-imgs3 {
+    margin-left: 40px;
+    width: 35px;
+    height: 34px;
+  }
+  .logo-imgs4 {
+    margin-left: 40px;
+    width: 60px;
+    height: 32px;
+  }
+  .previous-name-part {
+    width: 330px;
+  }
+  .previous-work-name {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .about-lg {
+    font-size: 25px;
+  }
+  .about-md {
+    font-size: 16px;
+  }
+  .about-sm {
+    font-size: 12px;
+  }
+  .logos-part {
+    width: 250px;
+  }
+  .logo-imgs1 {
+    width: 35px;
+    height: 20px;
+  }
+  .logo-imgs2 {
+    margin-left: 40px;
+    width: 25px;
+    height: 23px;
+  }
+  .logo-imgs3 {
+    margin-left: 40px;
+    width: 25px;
+    height: 24px;
+  }
+  .logo-imgs4 {
+    margin-left: 40px;
+    width: 35px;
+    height: 18px;
+  }
+  .previous-name-part {
+    width: 250px;
+  }
+  .previous-work-name {
+    font-size: 13px;
+  }
+}

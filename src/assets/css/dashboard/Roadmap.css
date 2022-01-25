@@ -1,0 +1,347 @@
+.content-roadmap {
+  background-color: #021425;
+  padding: 0px 190px;
+  padding-top: 150px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-bottom: 150px;
+}
+.lg-description-roadmap {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.desktop-roadmap-part {
+  display: block;
+}
+.main-roadmap {
+  width: 45%;
+  height: 330px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 20px 25px;
+  display: flex;
+  margin: 50px 0;
+}
+.roadmap-container {
+  display: flex;
+}
+.roadmap-img {
+  width: 35%;
+  height: 294px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+}
+.roadmap-description {
+  width: 45%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap-header {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.outline-part {
+  border-right: 2px solid #365f88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 36px;
+}
+.ring-img {
+  margin-left: 20px;
+  margin-right: -16px;
+}
+.time-main {
+  width: 201px;
+  height: 192px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.almost-time {
+  width: 112px;
+  height: 24px;
+  background: #00e4d1;
+  border-radius: 8px;
+  margin: auto;
+}
+.almost-time-letter {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 120%;
+  text-align: center;
+  color: #062b4e;
+}
+.roadmap-time-part {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+.roadmap-date {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.left-part-time {
+  margin-left: auto;
+}
+.mobile-roadmap-part {
+  display: none;
+}
+.mobile-outline-part {
+  border-right: 2px solid #365f88;
+  margin-right: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-ring-img {
+  margin-right: -16px;
+}
+.mobile-main-roadmap {
+  display: flex;
+}
+.mobile-roadmap-main {
+  width: 90%;
+  height: 301px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 20px 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.mobile-roadmap-header {
+  display: flex;
+}
+.mobile-img-part {
+  width: 123px;
+  height: 163px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  width: 40%;
+}
+.mobile-description-part {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-description-inner {
+  margin-left: 20px;
+}
+.mobile-date-part {
+  height: 32px;
+}
+.mobile-date-letter {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  float: left;
+  margin-left: 10%;
+}
+.mobile-almost {
+  width: 85px;
+  height: 20px;
+  background: #00e4d1;
+  border-radius: 8px;
+  float: right;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-almost-letter {
+  font-family: " Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  color: #062b4e;
+  margin-bottom: 0;
+}
+.mobile-lg-title {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.mobile-sm-word {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1599px) {
+  .content-roadmap {
+    padding: 0px 90px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 1148px) {
+  .main-roadmap {
+    height: 400px;
+    padding: 60px 25px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  .content-roadmap {
+    padding: 0px 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .content-roadmap {
+    padding: 0px 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .desktop-roadmap-part {
+    display: none;
+  }
+  .mobile-roadmap-part {
+    display: block;
+  }
+}
+@media only screen and (max-width: 629px) {
+  .mobile-date-letter {
+    margin-left: 2%;
+  }
+  .mobile-almost {
+    margin-right: 2%;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .mobile-date-letter {
+    font-size: 9px;
+    margin-left: 2%;
+    margin-top: 3px;
+  }
+  .mobile-almost {
+    width: 65px;
+    height: 17px;
+    margin-right: 2%;
+  }
+  .mobile-almost-letter {
+    font-size: 9px;
+  }
+  .mobile-lg-title {
+    font-size: 15px;
+  }
+  .mobile-img-part {
+    border-radius: 12px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .mobile-date-part {
+    height: 34px;
+  }
+  .mobile-date-letter {
+    font-size: 8px;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .mobile-almost {
+    width: 55px;
+    height: 15px;
+    margin-right: 0;
+  }
+  .mobile-almost-letter {
+    font-size: 8px;
+  }
+  .mobile-lg-title {
+    font-size: 13px;
+  }
+  .mobile-sm-word {
+    font-size: 12px;
+  }
+  .mobile-roadmap-main {
+    border-radius: 15px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .mobile-outline-part {
+    margin-right: 19px;
+  }
+  .mobile-ring-img {
+    margin-right: -12px;
+    width: 24px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mobile-date-part {
+    height: 34px;
+  }
+  .mobile-date-letter {
+    font-size: 7px;
+    margin-top: 5px;
+  }
+  .mobile-almost {
+    width: 50px;
+    height: 15px;
+    margin-right: 0;
+  }
+  .mobile-almost-letter {
+    font-size: 7px;
+  }
+  .mobile-description-inner {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .mobile-roadmap-main {
+    height: 320px;
+    padding: 20px 5px;
+  }
+  .mobile-date-part {
+    height: 34px;
+  }
+  .mobile-date-letter {
+    font-size: 6px;
+    margin-top: 5px;
+  }
+  .mobile-almost {
+    width: 40px;
+    height: 15px;
+    margin-right: 0;
+  }
+  .mobile-almost-letter {
+    font-size: 6px;
+  }
+}
