@@ -52,15 +52,15 @@ function Proprity() {
           <img className="earth-img" src={earth} />
         </div>
       </div>
-      <div className="row model">
-        <div className="col-lg-12">
+      <div className="row ">
+        <div className="model col-lg-12">
           <model-viewer
             id="mv-demo"
             shadow-intensity="0"
             src="/model/map.gltf"
             alt="A 3D model of an astronaut"
             auto-rotate
-            camera-controls
+            // camera-controls
           ></model-viewer>
         </div>
       </div>
